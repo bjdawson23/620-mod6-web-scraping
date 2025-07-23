@@ -22,14 +22,6 @@ Fork (copy into your GitHub account) and clone down (to your machine) this repo 
     spacy                   # for NLP 
     spacytextblob           # for NLP - combines spaCy and TextBlob (simpler interface)
 
-# datafun-07-ml
-Intoduction to Predictive ML Project
-Branton Dawson
-
-## Dataset
-
-Intro to machine learning (ML). At a high-level, there are three general categories of ML: supervised, unsupervised, and reinforcement learning. We'll employ a type of supervised learning, simple linear regression, to train a model and use the resulting model (a "best-fit" straight line) to make predictions.
-
 ## 1. Virtual Environment Management (Windows PowerShell)
 
 1. **Create a virtual environment**
