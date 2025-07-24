@@ -1,4 +1,6 @@
-# 620-mod6-web-scraping
+# 620-mod6 Web Scraping and NLP
+
+## web scraping (fetching and extracting information) and processing the content from a web page
 
 See [BeautifulSoup Quickstart Guide](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start)
 
@@ -78,3 +80,21 @@ git pull origin main
 git push
 ```
 
+## Export notebook to HTML
+
+   1. Use JupyterLab (or Jupyter Notebook) to export your .ipynb files as HTML. Try either:
+      Using the Jupyter menu: File -> Save and Export As... -> HTML
+   2. !jupyter nbconvert --to html name_of_notebook.ipynb
+   3. import os
+      os.system('jupyter nbconvert --to html yourNotebook.ipynb')
+
+## Web Scraping and NLP with Requests, BeautifulSoup, and spaCy
+
+    (Question 1) Article html stored in separate file that is committed and pushed:
+    (Question 2) Article text is correct:
+    (Question 3) Correct (or equivalent in the case of multiple tokens with same frequency) tokens printed:
+    (Question 4) Correct (or equivalent in the case of multiple lemmas with same frequency) lemmas printed:
+    (Question 5) Correct scores for first sentence printed:
+    (Question 6) Histogram shown with appropriate labelling:
+    (Question 7) Histogram shown with appropriate labelling:
+    (Question 8) Thoughtful answer provided:
