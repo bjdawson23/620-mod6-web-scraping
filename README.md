@@ -80,14 +80,6 @@ git pull origin main
 git push
 ```
 
-## Export notebook to HTML
-
-   1. Use JupyterLab (or Jupyter Notebook) to export your .ipynb files as HTML. Try either:
-      Using the Jupyter menu: File -> Save and Export As... -> HTML
-   2. !jupyter nbconvert --to html name_of_notebook.ipynb
-   3. import os
-      os.system('jupyter nbconvert --to html yourNotebook.ipynb')
-
 ## Web Scraping and NLP with Requests, BeautifulSoup, and spaCy
 
     (Question 1) Article html stored in separate file that is committed and pushed:
@@ -98,3 +90,11 @@ git push
     (Question 6) Histogram shown with appropriate labelling:
     (Question 7) Histogram shown with appropriate labelling:
     (Question 8) Thoughtful answer provided:
+
+## Export notebook to HTML
+
+   1. Use JupyterLab (or Jupyter Notebook) to export your .ipynb files as HTML. Try either:
+      Using the Jupyter menu: File -> Save and Export As... -> HTML
+   2. !jupyter nbconvert --to html name_of_notebook.ipynb
+   3. import os
+      os.system('jupyter nbconvert --to html yourNotebook.ipynb')
